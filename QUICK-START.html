@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מדריך הפעלה - Family Slot Arena</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #764ba2;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        .step {
+            background: #f8f9fa;
+            border-right: 5px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .step-number {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-weight: bold;
+            margin-left: 15px;
+            float: right;
+        }
+        code {
+            background: #2d3748;
+            color: #68d391;
+            padding: 4px 8px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            direction: ltr;
+            display: inline-block;
+        }
+        .highlight {
+            background: #ffd93d;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .success {
+            background: #48bb78;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.2em;
+        }
+        .warning {
+            background: #f6ad55;
+            color: #2d3748;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        ul {
+            line-height: 2;
+        }
+        .emoji {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="emoji">🎰</span> Family Slot Arena</h1>
+        <p style="text-align: center; font-size: 1.2em; color: #666;">מדריך מהיר להפעלה</p>
+
+        <h2><span class="emoji">💻</span> הפעלה מקומית (במחשב שלך)</h2>
+        
+        <div class="step">
+            <span class="step-number">1</span>
+            <h3>התקן Node.js</h3>
+            <p>אם עדיין לא מותקן, הורד מכאן: <code>https://nodejs.org</code></p>
+            <p>בחר בגרסת <span class="highlight">LTS</span> (מומלץ)</p>
+        </div>
+
+        <div class="step">
+            <span class="step-number">2</span>
+            <h3>פתח את התיקייה</h3>
+            <p>פתח Terminal / CMD בתיקיית הפרויקט</p>
+            <p><strong>Windows:</strong> לחץ ימני → "Open in Terminal"</p>
+            <p><strong>Mac:</strong> לחץ ימני → "New Terminal at Folder"</p>
+        </div>
+
+        <div class="step">
+            <span class="step-number">3</span>
+            <h3>הפעל את הסקריפט</h3>
+            <p><strong>Windows:</strong> לחיצה כפולה על <code>START.bat</code></p>
+            <p><strong>Mac/Linux:</strong> לחיצה כפולה על <code>START.sh</code></p>
+            <p style="margin-top: 15px;">או הקלד:</p>
+            <code style="display: block; margin-top: 10px;">npm install && npm run dev</code>
+        </div>
+
+        <div class="success">
+            <span class="emoji">✅</span> פתח בדפדפן: <code style="background: white; color: #667eea;">http://localhost:3000</code>
+        </div>
+
+        <h2><span class="emoji">🌍</span> העלאה לאינטרנט (חינם!)</h2>
+
+        <div class="step">
+            <span class="step-number">1</span>
+            <h3>צור חשבון ב-Vercel</h3>
+            <p>לך ל: <code>https://vercel.com/signup</code></p>
+            <p>התחבר עם Google / GitHub / Email</p>
+        </div>
+
+        <div class="step">
+            <span class="step-number">2</span>
+            <h3>העלה את הפרויקט</h3>
+            <p>1. לחץ על <span class="highlight">"Add New..."</span> → <span class="highlight">"Project"</span></p>
+            <p>2. גרור את תיקיית <code>family-slot-arena</code></p>
+            <p>3. לחץ <span class="highlight">"Deploy"</span></p>
+        </div>
+
+        <div class="step">
+            <span class="step-number">3</span>
+            <h3>קבל את הקישור</h3>
+            <p>תוך דקה-שתיים תקבל קישור:</p>
+            <code style="display: block; margin-top: 10px;">https://family-slot-arena.vercel.app</code>
+        </div>
+
+        <div class="success">
+            <span class="emoji">🎊</span> שלח את הקישור למשפחה והתחילו לשחק!
+        </div>
+
+        <h2><span class="emoji">🎮</span> איך משחקים?</h2>
+        <ul>
+            <li><span class="emoji">👤</span> צרו אווטר אישי מגניב</li>
+            <li><span class="emoji">⚔️</span> אתגרו שחקן אחר מהרשימה</li>
+            <li><span class="emoji">🎰</span> משכו את הסליידר למטה</li>
+            <li><span class="emoji">🏆</span> נצחו וצברו נקודות!</li>
+        </ul>
+
+        <div class="warning">
+            <strong><span class="emoji">⚠️</span> בעיות נפוצות:</strong><br>
+            • "npm: command not found" → התקן Node.js<br>
+            • "Port in use" → הקלד <code>PORT=3001 npm run dev</code><br>
+            • לא נטען → נקה Cache (Ctrl+Shift+Del)
+        </div>
+
+        <h2><span class="emoji">📱</span> טקסט לשליחה למשפחה</h2>
+        <div class="step">
+            <p style="font-size: 1.1em; line-height: 1.8;">
+                היי משפחה! 🎰<br><br>
+                בואו לשחק במשחק סלוט חדש שהכנתי!<br>
+                פשוט תכנסו לכאן:<br>
+                <code>https://family-slot-arena.vercel.app</code><br><br>
+                תיצרו אווטר, תאתגרו אחד את השני, ותנצחו!<br><br>
+                ליהנות! 🎉
+            </p>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 2px solid #e2e8f0; color: #999;">
+            נוצר באהבה למשפחה 💜
+        </div>
+    </div>
+</body>
+</html>
